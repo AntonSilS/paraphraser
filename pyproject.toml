@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rehash"
+version = "0.1.0"
+description = ""
+authors = ["AntonSilS <sil4enko87@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.1"
+uvicorn = {extras = ["standard"], version = "^0.21.1"}
+nltk = "^3.8.1"
+numpy = "^1.24.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
